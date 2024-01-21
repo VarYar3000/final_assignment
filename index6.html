@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Favorite Games</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Side Navigation -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+  <h1 class="w3-xxxlarge w3-text-theme">Side Navigation</h1>
+  <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+</nav>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+  <h4></h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">My Favorite Games</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">To Main Content</button>
+    </div>
+  </div>
+</header>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>Oh snap! We just showed you a modal..</h4>
+        <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-padding">
+        <p>Cool huh? Ok, enough teasing around..</p>
+        <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>Modal footer</p>
+      </footer>
+    </div>
+</div>
+
+
+
+<br>
+<div class="w3-container" align="center">
+	<div class="gallery">
+		<img src="rust01.jpg">
+		<img src="rust02.jpg">
+		<img src="rust03.jpg">
+		<img src="ark01.jpg">
+		<img src="ark02.jpg">
+		<img src="ark03.jpg">
+		<img src="dayz01.jpg">
+		<img src="dayz02.jpg">
+		<img src="dayz03.jpg">
+	</div>
+</div>
+<br>
+<div class="w3-container" align="center">
+
+                     <form>
+                        <div class="card-header">
+						<p>It's time to fill the form!</p>
+                        </div>
+                        <div class="card-body">
+                           <b>
+                              <p>Overall, did you like this assignment?</p>
+                           </b>
+                              <input type="radio" name="variant">
+                              Yes, this test have all elements to be a good assignment <br>
+                              <input type="radio" name="variant">
+                              Yes, but this is far from the best assignment <br>
+                           <b>
+                              <p>How would you rate this assignment?</p>
+                           </b>
+                              <input type="radio" name="variant2">
+                              100% <br>
+                              <input type="radio" name="variant2">
+                              99% <br>
+                           <b>
+                              <p>Judging by the videos, did you like the games that participated in this test?</p>
+                           </b>
+                              <input type="radio" name="variant3">
+                              Yes, this games is pretty good <br>
+                              <input type="radio" name="variant3">
+                              No, i don't like this genre of games <br>
+                           </b>
+                        </div>
+                     </form>
+
+</div>
+
+<hr>
+<div class="w3-center">
+  <h2>Other Pages</h2>
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="index1.html" class="w3-bar-item w3-button w3-hover-theme">1</a>
+      <a href="index2.html" class="w3-bar-item w3-button w3-hover-theme">2</a>
+      <a href="index3.html" class="w3-bar-item w3-button w3-hover-theme">3</a>
+      <a href="index4.html" class="w3-bar-item w3-button w3-hover-theme">4</a>
+      <a href="index5.html" class="w3-bar-item w3-button w3-hover-theme">5</a>
+	  <a href="index6.html" class="w3-bar-item w3-button w3-theme w3-hover-theme">6</a>
+    </div>
+  </div>
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-dark w3-padding-16">
+  <p>Author is Yarik Nikolayenko</p>
+  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">   
+    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+  </div>
+</footer>
+
+<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+// Side navigation
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
